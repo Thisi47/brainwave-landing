@@ -27,12 +27,12 @@ function ServiceCard({ title, description, bgColor }: ServiceCardProps) {
     return (
         <div className={`${bgColor} text-white p-8 rounded-xl flex flex-col items-center text-center transition-transorm hover:translate-y-2`}>
             {/** Espace pour l'icon */}
-            <div className="w-16 h-16 bg-white/20 rounded-lg mb-6 mb-4"></div>
+            <div className="w-16 h-16 bg-white/20 rounded-lg mb-4"></div>
 
             <h3 className="text-xl font-bold mb-4">{title}</h3>
             <p className="text-sm opacity-90 mb-6">{description}</p>
             <a href="#" className="font-semibold text-sm flex items-center group">
-                Learn more<span className="ml-2 group-hover:translate-x-1 transition-transform">...</span>
+                Learn more<span className="ml-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
             </a>
 
         </div>

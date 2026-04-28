@@ -18,7 +18,7 @@ export const HeroSection = () => {
             </div>
 
             <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
-                <div className="w-100 h-100  rounded-full flex items-center justify-center text-gray-500 shadow-xl relative">
+                <div className="w-120 h-12w0  rounded-full flex items-center justify-center">
                     <span>
                         <img src="/hero-image.png" alt="Femme souriante" className="w-full max-w-md" />
                     </span>

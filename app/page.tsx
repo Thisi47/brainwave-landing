@@ -1,3 +1,4 @@
+import { Facts } from "@/src/features/facts/Facts";
 import { HeroSection } from "@/src/features/hero/HeroSection";
 import { Services } from "@/src/features/services/Services";
 import { Story } from "@/src/features/story/Story";
@@ -7,9 +8,12 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <Services />
-      <Testimonial />
-      <Story />
+      <div className="flex flex-col items-center w-11/12">
+        <Services />
+        <Testimonial />
+        <Story />
+        <Facts />
+      </div>
     </main>
   );
 }

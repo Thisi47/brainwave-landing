@@ -28,7 +28,7 @@ const featuresData = [
 
 export function WhyChooseUs() {
     return (
-        <section className="py-20 px-6 max-w-6xl mx-auto">
+        <section className="py-20 px-6 max-w-6xl mx-auto bg-gray-100">
             <div className="text-center mb-16">
                 <span className="text-red-500 font-bold text-xs tracking-widest uppercase mb-4 block">
                     Why Choose Us
@@ -45,6 +45,7 @@ export function WhyChooseUs() {
                         <div className={`w-14 h-14 rounded-xl shrink-0 flex items-center justify-center ${feature.iconBg}`}>
                             <div className={`w-6 h-6 rounded-md ${feature.iconColor}`}></div>
                         </div>
+
                         <div>
                             <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
                             <p className="text-gray-500 leading-relaxed">
@@ -53,23 +54,22 @@ export function WhyChooseUs() {
                         </div>
                     </div>
                 ))}
+            </div>
 
-                <div className="flex flex-col md:flex-row items-center justify-between border-gray-200 pt-16 gap-8">
-                    <div className="md:w-1/2">
-                        <h3 className="text-3xl font-bold text-gray-900">
-                            Ready to launch your next project?
-                        </h3>
-
-                        <p className="text-gray-500">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-                    </div>
+            <div className="flex flex-col md:flex-row items-center justify-between border-t border-gray-300  pt-16 gap-8">
+                <div className="md:w-1/2">
+                    <h3 className="text-3xl font-bold text-gray-900">
+                        Ready to launch your next project?
+                    </h3>
+                    <p className="text-gray-500">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                 </div>
-
-                <div>
+                <div >
                     <button className="bg-blue-600 text-white hover:bg-blue-700 font-semibold py-4 rounded-lg transition duration-300 whitespace-nowrap">
                         Get started a project
                     </button>
                 </div>
             </div>
+
         </section>
     );
 }

@@ -1,3 +1,4 @@
+import { CaseStudies } from "@/src/features/cases-studies/CaseStudies";
 import { Facts } from "@/src/features/facts/Facts";
 import { HeroSection } from "@/src/features/hero/HeroSection";
 import { Services } from "@/src/features/services/Services";
@@ -15,6 +16,7 @@ export default function Home() {
         <Story />
         <Facts />
         <WhyChooseUs />
+        <CaseStudies />
       </div>
     </main>
   );

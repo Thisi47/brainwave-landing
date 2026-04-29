@@ -3,6 +3,7 @@ import { HeroSection } from "@/src/features/hero/HeroSection";
 import { Services } from "@/src/features/services/Services";
 import { Story } from "@/src/features/story/Story";
 import { Testimonial } from "@/src/features/testimonial/Testimonial";
+import { WhyChooseUs } from "@/src/features/why-choose-us/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Testimonial />
         <Story />
         <Facts />
+        <WhyChooseUs />
       </div>
     </main>
   );

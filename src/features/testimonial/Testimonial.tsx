@@ -4,7 +4,7 @@ export function Testimonial() {
             {/* Conteneur principal en Flexbox (Ligne sur grand écran, Colonne sur mobile) */}
             <div className="flex flex-col md:flex-row items-center gap-10">
                 {/** Partie de gauche, 'avatar */}
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                     <div className="w-32 h-32 rounded-full bg-gray-200 overflow-hidden shadow-lg border-4 border-white">
                         <img
                             src={'avatar-franklin.png'}

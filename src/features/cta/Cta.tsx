@@ -1,6 +1,6 @@
 export function Cta() {
     return (
-        <section className="bg-gray-900 py-20 px-6">
+        <section className="bg-gray-900 py-20 md:px-40 px-6">
             {/** Contenu centré avec FlexBox */}
             <div className="flex flex-col max-w-7xl mx-auto md:flex-row items-center justify-between gap-10">
                 {/** Partie gauche : Les textes */}

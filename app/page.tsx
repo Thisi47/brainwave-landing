@@ -10,7 +10,7 @@ import { WhyChooseUs } from "@/src/features/why-choose-us/WhyChooseUs";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white">
       <HeroSection />
       <div className="flex flex-col items-center mx-auto">
         <Services />

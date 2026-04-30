@@ -1,6 +1,7 @@
 // 1. La directive magique qui active l'interactivité côté client
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export function Navbar() {
@@ -20,10 +21,11 @@ export function Navbar() {
 
             {/* --- Liens Desktop (Cachés sur mobile avec hidden md:flex) --- */}
             <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-700">
-                <a href="#" className="hover:text-blue-600 transition-colors">Demos</a>
+                <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+                <a href="/saas" className="hover:text-blue-600 transition-colors">Demos</a>
                 <a href="#" className="hover:text-blue-600 transition-colors">Pages</a>
                 <a href="#" className="hover:text-blue-600 transition-colors">Support</a>
-                <a href="#" className="hover:text-blue-600 transition-colors">Contact</a>
+                <Link href="/contact" className="hover:text-blue-600 transition-colors">Contact</Link>
             </div>
 
             {/* --- Bouton Desktop --- */}
